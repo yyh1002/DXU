@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='utf-8'?>
+<fdmmaterial version="1.3" xmlns="http://www.ultimaker.com/material" xmlns:cura="http://www.ultimaker.com/cura">
+  <metadata>
+    <name>
+      <brand>Generic</brand>
+      <material>PLA</material>
+      <color>Generic</color>
+      <label>PLA2</label>
+    </name>
+    <description>Fast, safe and reliable printing. PLA is ideal for the fast and reliable printing of parts and prototypes with a great surface quality.</description>
+    <GUID>506c9f0d-e3aa-4bd4-b2d2-23e2425b1aa9</GUID>
+    <definition>fdmprinter</definition>
+    <version>9</version>
+    <compatible>True</compatible>
+    <color_code>#6cfff3</color_code>
+    <adhesion_info>Print on bare glass. Use tape for cold build plates.</adhesion_info>
+  </metadata>
+  <properties>
+    <diameter>2.85</diameter>
+    <density>1.24</density>
+  </properties>
+  <settings>
+    <setting key="surface energy">100</setting>
+    <setting key="heated bed temperature">60</setting>
+    <setting key="adhesion tendency">0</setting>
+    <setting key="standby temperature">175</setting>
+    <setting key="print temperature">200</setting>
+    <machine>
+      <machine_identifier manufacturer="Ultimaker B.V." product="Ultimaker 2+" />
+      <hotend id="0.4 mm">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+      <hotend id="0.6 mm">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+      <hotend id="0.25 mm">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+      <hotend id="0.8 mm">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+    </machine>
+    <machine>
+      <machine_identifier manufacturer="Ultimaker B.V." product="Ultimaker Original" />
+      <setting key="standby temperature">150</setting>
+    </machine>
+    <machine>
+      <machine_identifier manufacturer="Ultimaker B.V." product="Ultimaker 2 Extended+" />
+      <hotend id="0.4 mm">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+      <hotend id="0.6 mm">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+      <hotend id="0.25 mm">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+      <hotend id="0.8 mm">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+    </machine>
+    <machine>
+      <machine_identifier manufacturer="Ultimaker B.V." product="ultimaker_s5" />
+      <setting key="print cooling">100</setting>
+      <hotend id="AA 0.4">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+      <hotend id="AA 0.8">
+        <setting key="hardware compatible">yes</setting>
+        <setting key="retraction amount">5</setting>
+        <setting key="standby temperature">100</setting>
+      </hotend>
+      <hotend id="BB 0.4">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+      <hotend id="AA 0.25">
+        <setting key="hardware compatible">yes</setting>
+        <setting key="retraction amount">6.5</setting>
+        <setting key="standby temperature">100</setting>
+      </hotend>
+      <hotend id="BB 0.8">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+      <buildplate id="Glass">
+        <setting key="hardware compatible">yes</setting>
+        <setting key="hardware recommended">yes</setting>
+      </buildplate>
+      <buildplate id="Aluminum">
+        <setting key="hardware compatible">yes</setting>
+        <setting key="hardware recommended">no</setting>
+      </buildplate>
+    </machine>
+    <machine>
+      <machine_identifier manufacturer="IMADE3D" product="IMADE3D JellyBOX" />
+      <setting key="heated bed temperature">55</setting>
+      <setting key="print temperature">210</setting>
+      <hotend id="0.4 mm">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+      <hotend id="0.4 mm 2-fans">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+    </machine>
+    <machine>
+      <machine_identifier manufacturer="Ultimaker B.V." product="Ultimaker 2 Extended" />
+      <setting key="processing temperature graph">
+                </setting>
+      <setting key="standby temperature">150</setting>
+    </machine>
+    <machine>
+      <machine_identifier manufacturer="Ultimaker B.V." product="Ultimaker 3" />
+      <setting key="print cooling">100</setting>
+      <hotend id="AA 0.4">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+      <hotend id="AA 0.8">
+        <setting key="hardware compatible">yes</setting>
+        <setting key="retraction amount">5</setting>
+      </hotend>
+      <hotend id="BB 0.4">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+      <hotend id="BB 0.8">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+      <hotend id="AA 0.25">
+        <setting key="hardware compatible">yes</setting>
+        <setting key="retraction amount">6.5</setting>
+        <setting key="standby temperature">100</setting>
+      </hotend>
+    </machine>
+    <machine>
+      <machine_identifier manufacturer="Ultimaker B.V." product="Ultimaker 3 Extended" />
+      <setting key="print cooling">100</setting>
+      <hotend id="AA 0.4">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+      <hotend id="AA 0.8">
+        <setting key="hardware compatible">yes</setting>
+        <setting key="retraction amount">5</setting>
+      </hotend>
+      <hotend id="BB 0.4">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+      <hotend id="AA 0.25">
+        <setting key="hardware compatible">yes</setting>
+        <setting key="retraction amount">6.5</setting>
+        <setting key="standby temperature">100</setting>
+      </hotend>
+      <hotend id="BB 0.8">
+        <setting key="hardware compatible">yes</setting>
+      </hotend>
+    </machine>
+    <machine>
+      <machine_identifier manufacturer="Ultimaker B.V." product="Ultimaker 2" />
+      <setting key="processing temperature graph">
+                </setting>
+      <setting key="standby temperature">150</setting>
+    </machine>
+    <machine>
+      <machine_identifier manufacturer="Ultimaker B.V." product="Ultimaker 2 Go" />
+      <setting key="processing temperature graph">
+                </setting>
+      <setting key="standby temperature">150</setting>
+    </machine>
+  </settings>
+</fdmmaterial>
