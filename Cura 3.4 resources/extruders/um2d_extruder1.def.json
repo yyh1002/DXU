@@ -1,0 +1,20 @@
+{
+    "id": "um2d_extruder1",
+    "version": 2,
+    "name": "Extruder 1",
+    "inherits": "fdmextruder",
+    "metadata": {
+        "machine": "um2d",
+        "position": "0",
+        "quality_definition": "um2d_extruder1"
+    },
+
+    "overrides": {
+        "extruder_nr": {
+            "default_value": 0,
+            "maximum_value": "1"
+        },
+        "machine_nozzle_offset_x": { "default_value": 0.0 },
+        "machine_nozzle_offset_y": { "default_value": 0.0 }
+    }
+}
