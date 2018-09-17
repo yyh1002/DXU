@@ -1,1 +1,1 @@
-# UM2D - Dual Extrusion Upgrade for Ultimaker 2+
+# DXU - Dual Extrusion Upgrade for Ultimaker 2+
