@@ -1,7 +1,7 @@
 {
-    "id": "um2d",
+    "id": "dxu",
     "version": 2,
-    "name": "Ultimaker 2D",
+    "name": "DXU",
     "inherits": "ultimaker2_plus",
     "metadata": {
         "visible": true,
@@ -17,17 +17,17 @@
         "file_formats": "text/x-gcode",
         "icon": "icon_ultimaker.png",
         "platform": "ultimaker2_platform.obj",
-        "platform_texture": "um2d_backplate.png",
+        "platform_texture": "dxu_backplate.png",
         "platform_offset": [1.5, 0, 0],
         "machine_extruder_trains":
         {
-            "0": "um2d_extruder1",
-            "1": "um2d_extruder2"
+            "0": "dxu_extruder1",
+            "1": "dxu_extruder2"
         },
         "supported_actions": ["MachineSettingsAction", "UpgradeFirmware"]
     },
     "overrides": {
-        "machine_name": { "default_value": "um2d" },
+        "machine_name": { "default_value": "dxu" },
         "machine_width": {
             "default_value": 238
         },
@@ -189,7 +189,7 @@
             "default_value": 180
         },
         "prime_tower_position_y": {
-            "default_value": 60
+            "default_value": 40
         },
         "machine_disallowed_areas": {
             "default_value": [

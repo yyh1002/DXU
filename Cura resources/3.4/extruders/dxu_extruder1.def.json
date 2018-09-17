@@ -1,12 +1,12 @@
 {
-    "id": "um2d_extruder1",
+    "id": "dxu_extruder1",
     "version": 2,
     "name": "Extruder 1",
     "inherits": "fdmextruder",
     "metadata": {
-        "machine": "um2d",
+        "machine": "dxu",
         "position": "0",
-        "quality_definition": "um2d_extruder1"
+        "quality_definition": "dxu_extruder1"
     },
 
     "overrides": {
