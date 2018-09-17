@@ -376,7 +376,7 @@ const bool Z_ENDSTOPS_INVERTING = true; // set to true to invert the logic of th
 #define Y_MIN_POS 0
 #endif
 #ifndef Z_MAX_POS
-#define Z_MAX_POS 325
+#define Z_MAX_POS 225
 #endif
 #ifndef Z_MIN_POS
   #define Z_MIN_POS 0
