@@ -1,0 +1,7 @@
+COPY TARGETS:
+
+3.4:
+C:\Users\*USERNAME*\AppData\Roaming\cura\3.4
+
+Plugins:
+C:\Program Files\Ultimaker Cura 3.4\plugins
