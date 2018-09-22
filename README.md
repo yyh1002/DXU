@@ -3,5 +3,5 @@
 
 CREDITS:
 
-Firmware: Modified based on Mark2 version of Tinkergnome firmware by Tinkergnome.
+Firmware: Modified based on Mark2 version of Tinkergnome firmware by Tinkergnome.  
 Software: Used Mark2Tweaks plugin for CURA by Krys Lawrence
