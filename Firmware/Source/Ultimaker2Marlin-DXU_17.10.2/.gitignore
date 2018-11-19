@@ -1,0 +1,24 @@
+*.o
+applet/
+*~
+*.orig
+*.rej
+Marlin/debug.log
+Marlin/Marlin.sdf
+Marlin/Marlin.sln
+Marlin/Marlin.v11.suo
+Marlin/Marlin.vcxproj
+Marlin/Marlin.vcxproj.filters
+Marlin/Visual Micro/Upload.vmps.xml
+Marlin/Visual Micro/.Marlin.vsarduino.h
+Marlin/Visual Micro/Compile.vmps.xml
+Marlin/Visual Micro/Configuration.Debug.vmps.xml
+Marlin/_Ultimaker2Dual
+Marlin/_Ultimaker2
+*.bak
+*.patch
+.bin
+.obj
+resources
+_*
+Marlin/resources
