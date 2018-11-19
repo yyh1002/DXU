@@ -1,6 +1,12 @@
 # DXU - Dual Extrusion Upgrade for Ultimaker 2+
 
 
+### DISCUSSION:
+https://community.ultimaker.com/topic/24553-dxu-another-dual-extrusion-upgrade-for-um2/
+
+### UPDATES:
+- 19 Nov 2018 - Moved the lever dock from front to the back. 
+
 ### CREDITS:
 
 ##### Hardware:  
