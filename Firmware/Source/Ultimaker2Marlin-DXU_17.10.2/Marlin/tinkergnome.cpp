@@ -1772,7 +1772,10 @@ void lcd_prepare_buildplate_adjust()
     strcat_P(buffer, PSTR(" Z0"));
     enquecommand(buffer);
 
+    // Center adjust
     sprintf_P(buffer, PSTR("G1 F%i Z%i X%i Y%i"), int(homing_feedrate[0]), 20, AXIS_CENTER_POS(X_AXIS), AXIS_CENTER_POS(Y_AXIS));
+    // Right adjust
+    //sprintf_P(buffer, PSTR("G1 F%i Z%i X%i Y%i"), int(homing_feedrate[0]), 20, int(max_pos[X_AXIS])-15, max(int(min_pos[Y_AXIS]), 0)+20);
     enquecommand(buffer);
     enquecommand_P(PSTR("M84 X0 Y0"));
 }

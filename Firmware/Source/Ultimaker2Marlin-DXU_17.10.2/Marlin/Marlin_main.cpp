@@ -3697,7 +3697,7 @@ bool changeExtruder(uint8_t nextExtruder, bool moveZ)
         float wipeOffset;
 
         {
-            #define MIN_TOOLCHANGE_ZHOP  3.4f
+            #define MIN_TOOLCHANGE_ZHOP  0.6f
             #define MAX_TOOLCHANGE_ZHOP 14.0f
             float maxDiffZ = max_pos[Z_AXIS] + add_homeing[Z_AXIS] - current_position[Z_AXIS];
             maxDiffZ = constrain(maxDiffZ, 0.0f, MAX_TOOLCHANGE_ZHOP);
@@ -3739,7 +3739,7 @@ bool changeExtruder(uint8_t nextExtruder, bool moveZ)
             current_position[Z_AXIS] = destination[Z_AXIS];
             
             // Zhop before XY test
-            plan_buffer_line(current_position[X_AXIS], current_position[Y_AXIS], current_position[Z_AXIS], current_position[E_AXIS], homing_feedrate[Z_AXIS]/60, active_extruder);
+            // plan_buffer_line(current_position[X_AXIS], current_position[Y_AXIS], current_position[Z_AXIS], current_position[E_AXIS], homing_feedrate[Z_AXIS]/60, active_extruder);
             
             if (nextExtruder)
             {
